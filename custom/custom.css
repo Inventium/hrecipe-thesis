@@ -1,0 +1,46 @@
+/**
+ * File:			custom.css
+ * Description:	Custom styles for Thesis
+ */
+ 
+div.donation {
+  width: 200px;
+  background-color: #cfcfcf;
+  float: right;
+  margin: 8px;
+  padding: 8px;
+ -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.custom p.download-button {
+  background-color: #D54E21;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+ -moz-border-radius: 3px;
+  margin-top: 0px;
+  margin-bottom: 22px;
+  padding: 10px 8px 2px 8px;
+  font-family: 'Lucida Grande', Verdana, Arial, 'Bitstream Vera Sans', sans-serif;
+  height: 31px;
+  text-shadow: white 0px 1px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.custom p.download-button a {
+
+  font-size: 15px;
+  background-color: transparent;
+  line-height: 15px;
+  padding: 8px 22px 6px 22px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.custom p.download-button a:hover {
+  color: #FFAC7C;
+}
